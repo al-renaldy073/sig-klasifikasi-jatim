@@ -47,7 +47,7 @@ if not (D / "meta.json").exists():
 
 meta = muat()
 st.title(meta["judul"])
-st.caption(f"UTS Sistem Informasi Geografis | citra {meta['periode'][0]} s/d {meta['periode'][1]} | "
+st.caption(f"UTS Proyek Sains Data | citra {meta['periode'][0]} s/d {meta['periode'][1]} | "
            f"resolusi peta {meta['skala_peta_m']} m")
 
 tab_data, tab_model, tab_peta = st.tabs(["Data dan jumlah piksel", "Model dan akurasi", "Peta hasil"])
